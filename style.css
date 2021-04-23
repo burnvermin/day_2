@@ -1,0 +1,493 @@
+body {
+    background-color: hsl(217, 28%, 15%);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*****************
+===HEAD SECTION===
+******************/
+.head {
+    position: relative;
+    z-index: 1;
+}
+.head .title {
+    padding: 2% 5%;
+}
+.head .title img {    
+    float: left;
+}
+.head .title .menu p {
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    margin-right: 3%;
+    color: rgb(255, 255, 255, .7);
+}
+.head .title .menu p a {
+    color: rgb(255, 255, 255, .7);
+    text-decoration: none;
+}
+.head .title .menu p a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(255, 255, 255, .9);
+    cursor: pointer;
+}
+.head .center {
+    color: #fff;
+    text-align: center;
+}
+.head .center img {
+    clear: both;
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 10%;
+}
+.head .center #intro-text{   
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px; 
+    margin-top: 0%;
+    line-height: 50px;
+    width: 40%;    
+    margin-left: 30%;
+}
+.head .center p {
+    line-height: 25px;
+    font-size: 18px;
+    width: 35%;
+    margin-left: 32.5%;
+
+}
+.head .center button {
+    width: 15em;
+    height: 3em;
+    border-radius: 90px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    background-color: hsl(176, 68%, 64%);
+    color: rgb(255, 255, 255, .9);
+    margin-top: 2%;
+}
+.head .center button:hover{
+    background-color: hsl(176, 93%, 71%);
+    color: rgb(255, 255, 255, .7);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.abstract-Image img{
+    width: 100%;
+    height: 20em;
+    margin-top: -15%;
+}
+.abstracct-Image-mobile {
+    display: none;
+}
+
+.table {
+    margin-top: -1%;    
+    background-color: hsl(218, 28%, 13%);
+    color: #fff;
+}
+.table .row {
+    display: flex;  
+    width: 60%;
+    margin-left: 20%;  
+}
+.table .row .column {
+    flex: 50%;
+    text-align: center;
+    padding: 2em 5em;
+}
+.table .row .column h3 {
+    font-family: 'Raleway', sans-serif;
+}
+.table .row2 {
+    display: flex;  
+    width: 60%;
+    margin-left: 20%;  
+}
+.table .row2 .column {
+    flex: 50%;
+    text-align: center;
+    padding: 2em 5em;
+}
+.table2 {
+    padding-top: 5%;
+    background-color: hsl(218, 28%, 13%);
+    color: #fff;
+}
+.table2 .row {
+    display: flex;  
+    width: 90%;
+}
+.table2 .row .column {
+    flex: 50%;
+    text-align: center;
+    padding: 2em 5em;
+    margin-left: -5%;
+}
+
+.table2 .row .column2 {
+    flex: 30%;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: -10%;
+}
+.table2 .row .column2 h1 {
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.table2 .row .column2 p a {
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    font-size: 15px;
+}
+
+.table2 .row .column2 p a:hover {
+    text-decoration: underline;
+    color: hsl(0, 0%, 100%);
+}
+.table3 {
+    background-color: hsl(218, 28%, 13%);
+    height: 40em;
+}
+.table3 .quotes {
+    padding-top: 5%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.table3 .row {
+    position: relative;
+    z-index: 2;
+    display: flex;  
+    width: 80%;
+    margin-left: 7%;
+    margin-top: -1%;
+}
+.table3 .row .column  {
+    flex: 30%;
+    text-align: center;
+    margin-left: 5%;
+    background-color: hsl(219, 30%, 18%);
+    padding: 1em 2em;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+.table3 .row .column img {
+    width: 2    5px;
+    height: 25px;
+    border-radius: 100px;
+    float: left;
+    margin-top: 0%;
+}
+.table3 .row .column .facetext p {
+    font-size: 10px;
+    margin-top: -6%;
+}
+
+.feedback {
+    width: 50%;
+    margin-left: 20%;
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    text-align: center;
+    padding: 2em 4em 4em;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 4;
+    margin-top: -9%;
+}
+.feedback h2{    
+    font-family: 'Raleway', sans-serif;
+}
+.feedback input[type = text] {
+    width: 55%;
+    height: 3em;
+    border-radius: 50px;
+    padding-left: 3em;
+    border: none;
+}
+.feedback button {
+    width: 30%;
+    background-color:  hsl(176, 68%, 64%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    height: 3em;
+    border-radius: 50px;
+    border: none;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.footer {
+    background-color: hsl(216, 53%, 9%);
+    height: 34em;
+    color: white;
+}
+.footer img {
+    padding-top: 18%;
+    margin-left: 5%;
+}
+
+.footer .row {
+    margin-left: 5%;
+    display: flex;
+    font-size: 12px;
+}
+.footer .row p {
+    text-align: left;
+}
+.footer .row .column1 {
+    flex: 20%;
+    cursor: pointer;
+}
+.footer .row .column1 img {
+    margin-top: -10%;
+    margin-right: 2%;
+    float: left;
+    padding-bottom: 5em;
+    cursor: pointer;
+}
+.footer .row .column2 {
+    flex: 20%;
+    padding-left: 7%;
+    cursor: pointer;
+}
+.footer .row .column2 img {
+    margin-top: -10%;
+    margin-right: 2%;
+    float: left;
+    cursor: pointer;
+}
+.footer .row .column3 ul {
+    list-style: none;
+    margin-left: -100%;
+    cursor: pointer;
+}
+.footer .row .column4 ul {
+    list-style: none;
+    margin-left: 0%;
+    cursor: pointer;
+}
+.footer .row .column5 {
+    flex: 20%;
+    padding-left: 7%;
+    cursor: pointer;
+}
+.footer .row .column5 .fa {
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 180px;
+    background: hsl(216, 53%, 9%);
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 5%;
+}
+
+.footer .row .column5 .fa:hover {
+    background: hsl(216, 53%, 9%);
+    color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+}
+
+
+/******************************************
+================Mobile Design==============
+******************************************/
+@media screen and (max-width: 420px){
+
+    body{
+        margin: 0;
+    }
+
+    .head {
+        padding: 5% 2%;
+    }
+    .head .title img {
+        width: 20%;
+    }
+    
+    .head .title .menu p {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 1%;
+        color: rgb(255, 255, 255, .7);
+    }
+        
+    .head .center img {
+        clear: both;
+        margin-top: 15%;
+        width: 80%;
+        margin-left: 0%;
+    }
+    .head .center #intro-text {
+        font-size: 20px;
+        width: 60%;
+        line-height: 30px;
+        margin-left: 20%;
+    }
+    .head .center p {
+        font-size: 14px;
+        line-height: 25px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .abstract-Image img{
+        display: none;
+    }.abstracct-Image-mobile { 
+        display: block;
+        width: 100%;
+    }
+    .abstracct-Image-mobile img{
+        position: relative;
+        width: 100%;
+        margin-top: -50%;
+    }
+    .table .row {
+        display: block;
+        width: 100%;
+        padding-top: 1em;
+        margin-left: 0%;
+        margin-top: -3%;
+    }
+    .table .row .coolumn {
+        width: 100%;
+    }    
+    .table .row2 {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-left: 0%;
+    }
+    .table2 .row {
+        display: block;
+        width: 100%;
+    }
+    .table2 .row .column {
+        width: 90%;
+        padding: 2em 2em;
+        margin-left: -8%;
+    }
+    .table2 .row .column img {
+        width: 80%;
+        padding: 2em 2em;
+    }
+    .table2 .row .column2 {
+        text-align: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: -2%;
+        padding-bottom: 1em;
+    }
+    .table2 .row .column2 h1 {
+        font-size: 20px;
+    }
+    .table3 .quotes img{        
+        padding-top: 5%;
+        width: 10%;
+    }
+    .table3 {
+        height: 60em;
+    }
+    .table3 .row {
+        display: block;
+        margin-top: -2%;
+    }
+    .table3 .row .column {
+        margin-bottom: 10%;
+    }
+    .feedback {
+        width: 70%;
+        margin-left: 6.5%;
+        background-color: hsl(217, 28%, 15%);
+        color: white;
+        text-align: center;
+        padding: 2em 2em 3em;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 4;
+        margin-top: -40%;
+        display: block;
+    }
+    .feedback h2 {
+        font-size: 20px;
+    }
+    .feedback p {
+        font-size: 15px;
+    }
+    .feedback input[type = text]{
+        width: 80%;
+        height: 3em;
+    }
+    .feedback button{
+        width: 95%;
+        margin-top: 5%;
+        margin-left: 0;
+        height: 3em;
+    }
+    .footer {
+        padding-top: 60%;
+        height: 50em;
+    }
+    .footer img{
+        margin-left: 7%;
+    }
+    .footer .row {
+        display: block;
+        margin-left: 0%;
+    }
+    .footer .row .column1{
+        width: 90%;
+    }
+    .footer .row .column1 img {
+        margin-top: -10%;
+        padding-bottom: 5em;
+        padding-top: 3em;
+        padding-right: 1em;
+    }
+    .footer .row .column2 img{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .footer .row .column2 #immg{
+        margin-top: 2.3em;
+        margin-left: -1.6em;
+    }
+    .footer .row .column3 {
+        margin-left: 52%;
+        padding: 0;
+        margin-top: 20%;
+    }
+    .footer .row .column4 {
+        margin-left: 4%;
+    }
+    .footer .row .column5 {
+        padding-left: 1%;
+        cursor: pointer;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .footer .row .column5 .fa {
+        padding: 10px 10px 10px 10px;
+        font-size: 10px;
+        width: 10px;
+        margin: 5px 2px;
+        border-radius: 180px;
+        border-width: 2px;
+        color: white;
+        border-style: solid;
+    }
+}
+
